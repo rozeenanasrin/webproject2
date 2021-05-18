@@ -37,6 +37,10 @@ app.get("/", (req, res) => {
          res.render("index");
 });
 
+//app.get("/LPU study material", (req, res) => {
+
+ //   res.render("lpu");
+//});
 
 
 
