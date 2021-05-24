@@ -42,7 +42,9 @@ app.get("/", (req, res) => {
  //   res.render("lpu");
 //});
 
-
+app.get("/subscription", (req, res) => {
+    res.render("subscription");
+});
 
 app.listen(port, () =>{
          console.log(`server port no. is ${port}`);
